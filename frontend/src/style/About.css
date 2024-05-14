@@ -1,0 +1,48 @@
+/* Define custom styles for smaller screens */
+@media (max-width: 768px) {
+    .img-top {
+      order: -1; /* Move the image above the text */
+      margin-bottom: 1rem; /* Add margin between the image and text */
+    }
+  
+    .text {
+      order: 1; /* Move the text below the image */
+    }
+  }
+
+  .iconback{
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  
+  
+  .iconback:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+  }
+  .icon:hover{
+    background-color: white;
+  }
+  .textt{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 45px;
+  }
+  .icon:hover{
+    transition: transform 0.3s ease-in-out;
+  }
+  .ic1:hover{
+    transform: scale(1.1);
+    color: blue;
+  }
+  .ic2:hover{
+    transform: scale(1.1);
+    color: tomato;
+  }
+  .ic3:hover{
+    transform: scale(1.9);
+    color: blue;
+  }

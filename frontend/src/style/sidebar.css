@@ -1,0 +1,67 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f8f9fa; /* Bootstrap's default background color */
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .nav-link {
+    color: #333; /* Bootstrap's default text color */
+    text-decoration: none;
+  }
+  
+  .sidebar .nav-link.active {
+    font-weight: bold;
+  }
+  .nav-link.smaller-nav {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    padding-top: 0.25rem; /* Adjust the top padding as needed */
+    padding-bottom: 0.25rem; /* Adjust the bottom padding as needed */
+  }
+
+  .card:hover .btn-add-to-cart {
+   display: block;
+}
+
+.btn-add-to-cart {
+    display: none;
+    transition: visibility 0.3s ease;
+}
+.cat:hover{
+  background-color: red;
+}
+
+@media screen and (min-width: 576px) {
+    .cat{
+      display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  .cat2{
+    display: none;
+  }
+  .best{
+    display: none;
+  }
+  .best-card-main{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cat{
+    display: flex;
+  }
+}
+
+
+  
