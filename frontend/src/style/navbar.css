@@ -1,0 +1,23 @@
+/* Add this to your CSS file */
+.nav-link.active {
+    border-bottom:  3px solid  red;
+  }
+
+  .account-link.active{
+    background-color: red;
+    border-radius: 5px;
+  }
+
+  .main-account.active{
+    font-size: bold;
+  }
+  .name{
+    color: tomato;
+  }
+
+  /* @media screen and (min-width: 576px){
+    .small{
+        display: none;
+    }
+  } */
+  

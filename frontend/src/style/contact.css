@@ -1,0 +1,12 @@
+.nav-link.active {
+    border-bottom:  3px solid  red;
+  }
+
+  .account-link.active{
+    background-color: red;
+    border-radius: 5px;
+  }
+
+  .contact.active{
+    font-size: bold;
+  }

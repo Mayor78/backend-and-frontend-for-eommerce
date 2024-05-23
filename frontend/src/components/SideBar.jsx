@@ -3,7 +3,7 @@ import '../style/sidebar.css';
 
 const Sidebar = () => {
   return (
-    <div className="sideba m-4">
+    <div className="sideba m-4 mt-5">
       <ul className="nav flex-column">
         <li className="nav-item">
           <div className="dropdown">

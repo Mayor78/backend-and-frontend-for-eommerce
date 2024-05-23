@@ -3,7 +3,7 @@ import "../style/sidebar.css";
 
 const Cards = (props) => {
     const width = {
-        width: '15rem',
+        width: '13rem',
         height: "auto",
         border: "border-radius"
     }
@@ -21,13 +21,13 @@ const Cards = (props) => {
 
   return (
     <div>
-        <div class="card border border-light-subtle" style={width } >
+        <div class="card border border-0" style={width } >
   <img src={props.picture} class="card-img-top" alt="" style={styleimage} />
   <div class="card-body ">
-    <h3 class="card-title">{props.name}</h3>
+    <h3 class="card-title d-flex justify-content-center">{props.name} </h3>
     <h4 class="card-text text-danger d-flex">{props.price}<span><h6 className='text-dark'><strike>{props.oldprice}</strike></h6></span></h4>
     <p class="card-text text-warning">{props.rating}  <span>{props.num}</span></p>
-    <button className="btn btn-primary btn-add-to-cart  " style={stylebtn}>Add To Cart</button>
+    {/* <button className="btn btn-primary btn-add-to-cart  " style={stylebtn}>Add To Cart</button> */}
   </div>
 </div>
 

@@ -10,6 +10,13 @@
     gap: 2px;
 }
 
+.slide{
+ border: none;
+ width: auto;
+}
+
+
+
 
 
 
@@ -32,9 +39,9 @@
     .smaller{
       display: none;
     }
-    .products-carousel{
+    /* .products-carousel{
       display: none;
-    }
+    } */
     .iconShow{
         display: none;
     }
