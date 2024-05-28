@@ -23,7 +23,10 @@ const ExploreCard = (props) => {
   <div class="card-body">
     <h4 class="card-text">{props.price} </h4>
     <h5><span>{props.rating}</span> <p>{props.num}</p></h5>
-    <button className="btn btn-primary btn-add-to-cart" style={stylebtn}>Add To Cart</button>
+    <div className='btn' style={stylebtn}>
+        <button className="btn btn-primary btn-add-to-cart" style={stylebtn}>Add To Cart</button>
+    </div>
+   
   </div>
 </div>
     </div>

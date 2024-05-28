@@ -33,6 +33,10 @@
     .hideonsmall{
       display: none;
     }
+    .cart{
+      display: flex;
+    }
+   
   }
 
   @media screen and (min-width: 576px) {
@@ -45,6 +49,7 @@
     .iconShow{
         display: none;
     }
+   
 
   }
 

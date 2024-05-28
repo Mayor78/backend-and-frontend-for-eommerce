@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import HomeContext from '../context/HomeContext';
+import "../style/new.css"
 
 
 const CartItem = ({ data }) => {
@@ -13,7 +14,7 @@ const CartItem = ({ data }) => {
     }
     return (
         <div className="cart-item mb-2">
-            <div className=' d-lg-flex d-md-flex justify-content-evenly d-sm-block'> 
+            <div className=' cart d-flex justify-content-evenly'> 
                 <div>
                 <h4>product</h4>
                 <img src={data.image} alt={data.name}  style={imge}/>
@@ -36,7 +37,7 @@ const CartItem = ({ data }) => {
 
                     </div>
                     <div>
-                        <h4>total</h4>
+                        <h4>subtotal</h4>
                         <p>${parseFloat (data.price) * parseInt(data.quantity)}</p>
                     </div>
     

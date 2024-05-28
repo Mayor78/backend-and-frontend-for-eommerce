@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className=' align-items-center justify-content-space-center mx-auto'>Copyright Rimel 2024. All right reserved</p>
+      <p className='d-flex align-items-center justify-content-center mx-auto'>Copyright Mayor 2024. All right reserved</p>
       
     </div>
   );

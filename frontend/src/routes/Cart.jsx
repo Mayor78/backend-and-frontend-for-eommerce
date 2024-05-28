@@ -4,7 +4,7 @@ import HomeContext from '../context/HomeContext';
 import CartItem from '../product/CartItem';
 import { PRODUCTS } from '../product/product';
 
-const Cart = () => {
+const Cart = ({data}) => {
     const { cartItems, getTotalCartAmount } = useContext(HomeContext);
     const totalAmount = getTotalCartAmount();
     const navigate = useNavigate();
@@ -41,9 +41,13 @@ const Cart = () => {
 
             {totalAmount > 0 ? (
                 <div className='checkout'>
-                    <p>Subtotal: ${totalAmount}</p>
-                    <button onClick={() => navigate('/')}>Continue Shopping</button>
-                    <button>Checkout</button>
+                    <div className='d-flex justify-content-between gap-3'>
+                      <button onClick={() => navigate('/')} className='btn btn-primary '>Continue Shopping</button>
+                     <button className='btn btn-danger'>Checkout</button>
+                    </div>
+                    <h4>Total: <span className='fs-5 text-danger'>${totalAmount}</span></h4>
+                    
+                   
                 </div>
             ) : (
                 <h1>Your Cart Is Empty</h1>
